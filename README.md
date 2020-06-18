@@ -1,6 +1,7 @@
 # FoundryVTT - Forien's Armoury
-**[Current version]**: v0.2.3  
-**[Compatibility]**: *FoundryVTT* 0.6.0+, *WFRP4e* 1.5.5+
+**[Current version]**: v0.2.6  
+**[Compatibility]**: *FoundryVTT* 0.6.0+, *WFRP4e* 1.5.5+   
+**[Optional modules]**: *Babele* 1.19+ (required for translations)
 
 This module is a collection of custom trappings and features for Warhammer Fantasy Role-Play 4th edition game system for Foundry Virtual Table Top
 
@@ -19,7 +20,8 @@ This module is a collection of custom trappings and features for Warhammer Fanta
 * Added automation for applying Bleed Conditions upon hit with Slashing weapon
 * Prepared groundwork for translation using Babele to any language
 * Started translating Forien's Armoury compendium to Polish (all names and most descriptions done)
-
+* Added notification when combat ends about all recovered ammunition. Only owner and GM see it. 
+* Restored support for retrieving ammunition out of combat 
 
 
 ## Installation
@@ -35,8 +37,6 @@ This module allows GMs to enable an "arrow reclamation feature", which allows fo
 
 * 2 projectile Qualities and 3 projectile Flaws are also added to work with the feature
 
-*There is currently bug with returning arrows outside of "encounter", so I disabled that.  
-**Currently only works with encounter**. Remember to delete encounter to return arrows.*
 
 ### Compendiums
 Module contains single Compendium pack containing at the moment 34 items.
@@ -55,8 +55,6 @@ Module contains single Compendium pack containing at the moment 34 items.
 ## Future plans
 
 ### Features
-* fix out-of-encounter bug with arrow reclamation
-* add private chat messages for arrow owners (and GMs) after encounter - for clarity
 * add checkboxes in weapon test dialog that would allow to override arrow recovery system
 
 ### Content
@@ -70,6 +68,10 @@ Module contains single Compendium pack containing at the moment 34 items.
 ## Contact
 
 If you wish to contact me for any reason, reach me out on Discord using my tag: `Forien#2130`
+
+## Support
+
+If you wish to support me, please check out my [Patreon page](https://www.patreon.com/forien). Thanks!
 
 
 ## Acknowledgments

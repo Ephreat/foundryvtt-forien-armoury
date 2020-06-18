@@ -5,8 +5,9 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
    *
    * @param actorId
    * @param ammoId
+   * @param userId
    */
-  static addAmmoToReplenish(actorId, ammoId) {
+  static addAmmoToReplenish(actorId, ammoId, userId) {
     // retrieve existing data or initialize it
     let ammoReplenish = game.combat.getFlag('forien-armoury', 'ammoReplenish') || {};
     let actorData = ammoReplenish[actorId] || [];
@@ -16,6 +17,7 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
     if (ammoData === undefined) {
       ammoData = {
         "_id": ammoId,
+        "user": userId,
         "quantity": 0
       };
       actorData.push(ammoData);
@@ -26,7 +28,9 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
     ammoReplenish[actorId] = actorData;
 
     // set (overwrite) flag with updated data
-    game.combat.setFlag('forien-armoury', 'ammoReplenish', ammoReplenish);
+    game.combat.unsetFlag('forien-armoury', 'ammoReplenish').then(() => {
+      game.combat.setFlag('forien-armoury', 'ammoReplenish', ammoReplenish);
+    });
   }
 
   /**
@@ -35,13 +39,21 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
    * @param actorId
    * @param ammoId
    * @param quantity
+   * @param userId
+   * @param bulk
    */
-  static replenishAmmo(actorId, ammoId, quantity) {
-    let actor = game.actors.find(a => a._id === actorId);
-    let ammoEntity = duplicate(actor.getEmbeddedEntity("OwnedItem", ammoId));
+  static replenishAmmo(actorId, ammoId, quantity, userId, bulk = false,) {
+    let timeout = bulk ? 0 : 300;
+    setTimeout(() => {
+      let actor = game.actors.find(a => a._id === actorId);
+      let ammoEntity = duplicate(actor.getEmbeddedEntity("OwnedItem", ammoId));
 
-    ammoEntity.data.quantity.value += quantity;
-    actor.updateEmbeddedEntity("OwnedItem", {_id: ammoId, "data.quantity.value": ammoEntity.data.quantity.value});
+      ammoEntity.data.quantity.value += quantity;
+      actor.updateEmbeddedEntity("OwnedItem", {_id: ammoId, "data.quantity.value": ammoEntity.data.quantity.value});
+
+      if (bulk)
+        this.notifyAmmoReturned(actor, ammoEntity, userId, quantity);
+    }, timeout);
   }
 
   /**
@@ -55,10 +67,40 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
     for (let actorId in ammoReplenish) {
       if (Array.isArray(ammoReplenish[actorId])) {
         ammoReplenish[actorId].forEach(function (ammo) {
-          ForienArmoury.ArrowReclamation.replenishAmmo(actorId, ammo._id, ammo.quantity);
+          ForienArmoury.ArrowReclamation.replenishAmmo(actorId, ammo._id, ammo.quantity, ammo.user, true);
         });
       }
     }
+  }
+
+  /**
+   *
+   * @param actor
+   * @param ammo
+   * @param user
+   * @param quantity
+   */
+  static async notifyAmmoReturned(actor, ammo, user, quantity) {
+    let templateData = duplicate(actor.data);
+    templateData.ammo = ammo;
+
+    // Don't post any image for the item (which would leave a large gap) if the default image is used
+    if (templateData.img.includes("/unknown.png"))
+      templateData.img = null;
+    if (templateData.ammo.img.includes("/blank.png"))
+      templateData.ammo.img = null;
+
+    templateData.quantity = quantity;
+
+    renderTemplate('modules/forien-armoury/templates/ammo-recovery.html', templateData).then(html => {
+      let chatData = {
+        user: user,
+        speaker: {alias: actor.name, actor: actor._id},
+        whisper: game.users.entities.filter((u) => u.isGM).map((u) => u._id),
+        content: html
+      };
+      ChatMessage.create(chatData);
+    });
   }
 
   /**
@@ -93,12 +135,12 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
 
     // define chat messages
     type = game.i18n.localize("FArmoury." + type);
-    // let messageNow = game.i18n.format("FArmoury.recovered", {type});
+    let messageNow = game.i18n.format("FArmoury.recovered", {type});
     let messageFuture = game.i18n.format("FArmoury.recoveredFuture", {type});
 
 
     // if unbreakable, recover, if not, apply rules
-    if (ammoQualities.value.includes(game.i18n.localize("FArmoury.Properties.Unbreakable"))) {
+    if (ammoQualities.value.includes(game.i18n.localize("PROPERTY.Unbreakable"))) {
       recovered = true;
     } else {
       recovered = this.isProjectileSaved(roll, percentageTarget, ammo);
@@ -111,9 +153,9 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
 
     if (recovered === true) {
       if (game.combat == null) {
-        return; // broken at the moment
-        // message = messageNow;
-        // ForienArmoury.ArrowReclamation.replenishAmmo(actorId, ammoId, 1);
+        // return; // broken at the moment
+        message = messageNow;
+        ForienArmoury.ArrowReclamation.replenishAmmo(actorId, ammoId, 1);
       } else {
         message = messageFuture;
         if (game.user.isGM) {
@@ -121,7 +163,7 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
         } else {
           game.socket.emit("module.forien-armoury", {
             type: "arrowToReclaim",
-            payload: {actorId: actorId, ammoId: ammoId}
+            payload: {actorId: actorId, ammoId: ammoId, userId: game.user._id}
           })
         }
       }
@@ -266,11 +308,29 @@ ForienArmoury.ArrowReclamation = class ArrowReclamation {
    * @param result
    */
   static applyBleedingOnSlashing(result) {
+    // if disabled, return
+    if (!game.settings.get("forien-armoury", "applySlashing.Enable"))
+      return;
+
     let data = result;
+    //check weapon for Slashing
+    let weapon = data.attackerTestResult.weapon;
+    let slashing = weapon.properties.qualities.includes(game.i18n.localize('FArmoury.Properties.Slashing.Label'));
+
+    // check ammo for slashing
+    if (slashing === false) {
+      let ammoId = weapon.data.currentAmmo.value;
+      let ammo = weapon.ammo.find(a => a._id === ammoId);
+      slashing = ammo.data.qualities.value.includes(game.i18n.localize('FArmoury.Properties.Slashing.Label'));
+    }
+
+    // if no slashing, go away
+    if (slashing === false)
+      return;
+
     if (data.winner === "defender")
       return;
 
-    console.log(data);
     let target = canvas.tokens.get(data.speakerDefend.token);
     let armor = target.actor.prepareItems().AP;
     let hitLocation = data.hitloc.value;

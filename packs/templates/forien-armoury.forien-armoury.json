@@ -13,7 +13,7 @@
 		},
 		{
 			"id": "Arming Sword",
-			"name": "Arming Sword",
+			"name": "Epée d'armes",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "",
 			"flaws": "",
@@ -21,7 +21,7 @@
 		},
 		{
 			"id": "Azyr Ingredient",
-			"name": "Azyr Ingredient",
+			"name": "Ingrédient Azyr",
 			"description": "<p>Generic ingredient used in channeling Azyr. Commonly used ingredients are astronomical instruments, charts, lenses, and symbols as are ingredients associated with augury, such as animal innards, mirrors, glass balls, and bird tongues. Some wind-based spells use wings and feathers, where those involving electricity prefer slivers of carved metal.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
 		},
 		{
@@ -42,7 +42,7 @@
 		},
 		{
 			"id": "Basket-hilt Sword",
-			"name": "Basket-hilt Sword",
+			"name": "Broadsword",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "",
 			"flaws": "",
@@ -50,7 +50,7 @@
 		},
 		{
 			"id": "Battleaxe",
-			"name": "Battleaxe",
+			"name": "Hache de guerre",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Hack",
 			"flaws": "",
@@ -58,7 +58,7 @@
 		},
 		{
 			"id": "Bear Spear",
-			"name": "Bear Spear",
+			"name": "Lance",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Impale",
 			"flaws": "",
@@ -74,7 +74,7 @@
 		},
 		{
 			"id": "Bodkin Arrow",
-			"name": "Bodkin Arrow",
+			"name": "Flèche Bodkin",
 			"description": "<p>Armour piercing arrow used by military in battles, designed to counter some armour worn by enemy combatants.</p>",
 			"qualities": "Penetrating",
 			"flaws": "",
@@ -82,7 +82,7 @@
 		},
 		{
 			"id": "Bodkin Bolt",
-			"name": "Bodkin Bolt",
+			"name": "Carreau Bodkin",
 			"description": "<p>Armour piercing bolt used by military in battles, designed to counter some armour worn by enemy combatants.</p>",
 			"qualities": "Impale, Penetrating, Recoverable",
 			"flaws": "",
@@ -90,7 +90,7 @@
 		},
 		{
 			"id": "Breastplate",
-			"name": "Breastplate",
+			"name": "Plastron",
 			"description": "<p>Breastplate is a type of plate armour that covers only front portion of torso.</p>",
 			"qualities": "Impenetrable",
 			"flaws": "Partial",
@@ -98,7 +98,7 @@
 		},
 		{
 			"id": "Broad Bolt",
-			"name": "Broad Bolt",
+			"name": "Carreau large",
 			"description": "<p>Bolt with heavy, broad head that can cause heavy blunt trauma to the target.</p>",
 			"qualities": "Pummel, Sturdy",
 			"flaws": "",
@@ -111,7 +111,7 @@
 		},
 		{
 			"id": "Club",
-			"name": "Club",
+			"name": "Matraque",
 			"description": "<p>Back-Alley Weapon</p>",
 			"qualities": "Pummel",
 			"flaws": "",
@@ -119,7 +119,7 @@
 		},
 		{
 			"id": "Cracker Bullet",
-			"name": "Cracker Bullet",
+			"name": "Balles à fragmentation",
 			"description": "<p>Bullet for use with sling, that upon impact cracks with tiny explosion sending fragments in every direction.&nbsp;</p>",
 			"qualities": "Blast 2, Damaging",
 			"flaws": "Dangerous, Imprecise, Unrecoverable",
@@ -127,7 +127,7 @@
 		},
 		{
 			"id": "Crowbar",
-			"name": "Crowbar",
+			"name": "Pied-de-biche",
 			"description": "<p>Back-Alley Weapon</p>",
 			"qualities": "Pummel,Slow",
 			"flaws": "",
@@ -143,7 +143,7 @@
 		},
 		{
 			"id": "Cutlass",
-			"name": "Cutlass",
+			"name": "Coutelas",
 			"description": "<p>Commoner's Weapon</p>",
 			"qualities": "Slashing",
 			"flaws": "",
@@ -151,7 +151,7 @@
 		},
 		{
 			"id": "Dirk",
-			"name": "Dirk",
+			"name": "Poignard",
 			"description": "<p>Commoner's Weapon</p>",
 			"qualities": "",
 			"flaws": "",
@@ -167,7 +167,7 @@
 		},
 		{
 			"id": "Falchion",
-			"name": "Falchion",
+			"name": "Fauchon",
 			"description": "<p>Commoner's Weapon</p>",
 			"qualities": "Slashing",
 			"flaws": "",
@@ -175,7 +175,7 @@
 		},
 		{
 			"id": "Gambeson",
-			"name": "Gambeson",
+			"name": "Gambison",
 			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
 			"qualities": "",
 			"flaws": "",
@@ -183,7 +183,7 @@
 		},
 		{
 			"id": "Gambeson Coat",
-			"name": "Gambeson Coat",
+			"name": "Manton de gambison",
 			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
 			"qualities": "",
 			"flaws": "",
@@ -191,7 +191,7 @@
 		},
 		{
 			"id": "Gambeson Coif",
-			"name": "Gambeson Coif",
+			"name": "Coiffe de gambison",
 			"description": "",
 			"qualities": "",
 			"flaws": "",
@@ -199,7 +199,7 @@
 		},
 		{
 			"id": "Gambeson Shirt",
-			"name": "Gambeson Shirt",
+			"name": "Chemise de gambison",
 			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
 			"qualities": "",
 			"flaws": "",
@@ -217,7 +217,7 @@
 		},
 		{
 			"id": "Hatchet",
-			"name": "Hatchet",
+			"name": "Hachette",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Undamaging",
 			"flaws": "",
@@ -225,7 +225,7 @@
 		},
 		{
 			"id": "Heater Shield",
-			"name": "Heater Shield",
+			"name": "Ecu",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Shield 2,Defensive",
 			"flaws": "",
@@ -233,7 +233,7 @@
 		},
 		{
 			"id": "Heavy Lance",
-			"name": "Heavy Lance",
+			"name": "Lance lourde",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Impact,Impale",
 			"flaws": "",
@@ -246,7 +246,7 @@
 		},
 		{
 			"id": "Horseman's Pick",
-			"name": "Horseman's Pick",
+			"name": "Nadziak",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Slashing",
 			"flaws": "",
@@ -254,7 +254,7 @@
 		},
 		{
 			"id": "Hunting Arrow",
-			"name": "Hunting Arrow",
+			"name": "Flèche de chasse",
 			"description": "<p>Specially designed arrows for hunting game and other big prey. It's wide and heavy arrowhead cuts deep into the flesh and can be very lethal, but range is heavily reduced.&nbsp;</p>",
 			"qualities": "Impale, Sturdy",
 			"flaws": "Unreliable",
@@ -262,7 +262,7 @@
 		},
 		{
 			"id": "Hunting Bolt",
-			"name": "Hunting Bolt",
+			"name": "Carreau de chasse",
 			"description": "<p>Specially designed bolts for hunting game and other big prey. It's wide and heavy arrowhead cuts deep into the flesh and can be very lethal, but range is heavily reduced.&nbsp;</p>",
 			"qualities": "Impale, Sturdy",
 			"flaws": "Unreliable",
@@ -283,7 +283,7 @@
 		},
 		{
 			"id": "Lead Bullet",
-			"name": "Lead Bullet",
+			"name": "Balle de plomb",
 			"description": "",
 			"qualities": "Pummel, Unbreakable",
 			"flaws": "",
@@ -339,7 +339,7 @@
 		},
 		{
 			"id": "Light Lance",
-			"name": "Light Lance",
+			"name": "Lance légère",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Impact,Impale",
 			"flaws": "",

@@ -14,20 +14,20 @@
 		{
 			"id": "Arming Sword",
 			"name": "Epée d'armes",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Azyr Ingredient",
-			"name": "Ingrédient Azyr",
-			"description": "<p>Generic ingredient used in channeling Azyr. Commonly used ingredients are astronomical instruments, charts, lenses, and symbols as are ingredients associated with augury, such as animal innards, mirrors, glass balls, and bird tongues. Some wind-based spells use wings and feathers, where those involving electricity prefer slivers of carved metal.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"name": "Ingrédient d'Azyr",
+			"description": "<p>Ingrédient générique utilisé pour focaliser Azyr. Les ingrédients communs sont des instruments astronomiques, diagramme, lentilles et symboles, ainsi que les ingrédients associés à l'augure, tels que les entrailles d'animaux, les miroirs, les boules de verre, et les langues d'oiseaux. Certains sorts basés sur le vent utilisent des ailes et des plumes, tandis que ceux qui font appel à l'électricité préfèrent des éclats de métal sculpté.</p>\n<p><em> Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixer le prix à X PA, où X est égal au NI du Sort.&nbsp;</em></p>"
 		},
 		{
 			"id": "Backsword",
 			"name": "Backsword",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Slashing",
 			"flaws": "",
 			"special": ""
@@ -35,7 +35,7 @@
 		{
 			"id": "Bardiche",
 			"name": "Bardiche",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Hack",
 			"flaws": "",
 			"special": ""
@@ -43,7 +43,7 @@
 		{
 			"id": "Basket-hilt Sword",
 			"name": "Broadsword",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
@@ -51,7 +51,7 @@
 		{
 			"id": "Battleaxe",
 			"name": "Hache de guerre",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Hack",
 			"flaws": "",
 			"special": ""
@@ -59,7 +59,7 @@
 		{
 			"id": "Bear Spear",
 			"name": "Lance",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Impale",
 			"flaws": "",
 			"special": ""
@@ -67,7 +67,7 @@
 		{
 			"id": "Bec de Corbin",
 			"name": "Bec de Corbin",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Damaging,Defensive,Impale,Pummel",
 			"flaws": "",
 			"special": ""
@@ -75,7 +75,7 @@
 		{
 			"id": "Bodkin Arrow",
 			"name": "Flèche Bodkin",
-			"description": "<p>Armour piercing arrow used by military in battles, designed to counter some armour worn by enemy combatants.</p>",
+			"description": "<p>Flèche perforante utilisée par les militaires dans les batailles, conçue pour contrer certaines armures portées par les combattants ennemis.</p>",
 			"qualities": "Penetrating",
 			"flaws": "",
 			"special": ""
@@ -83,7 +83,7 @@
 		{
 			"id": "Bodkin Bolt",
 			"name": "Carreau Bodkin",
-			"description": "<p>Armour piercing bolt used by military in battles, designed to counter some armour worn by enemy combatants.</p>",
+			"description": "<p>Carreau perforant utilisée par les militaires dans les batailles, conçue pour contrer certaines armures portées par les combattants ennemis.</p>",
 			"qualities": "Impale, Penetrating, Recoverable",
 			"flaws": "",
 			"special": ""
@@ -91,7 +91,7 @@
 		{
 			"id": "Breastplate",
 			"name": "Plastron",
-			"description": "<p>Breastplate is a type of plate armour that covers only front portion of torso.</p>",
+			"description": "<p>Le plastron est un type d'armure de plaque qui ne couvre que la partie avant du torse.</p>",
 			"qualities": "Impenetrable",
 			"flaws": "Partial",
 			"special": ""
@@ -99,20 +99,20 @@
 		{
 			"id": "Broad Bolt",
 			"name": "Carreau large",
-			"description": "<p>Bolt with heavy, broad head that can cause heavy blunt trauma to the target.</p>",
+			"description": "<p>Carreau à tête lourde et large qui peut causer un traumatisme contondant important à la cible.</p>",
 			"qualities": "Pummel, Sturdy",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Chamon Ingredient",
-			"name": "Chamon Ingredient",
-			"description": "<p>Generic ingredient used in channeling Chamon. Commonly used ingredients are heavy metals of all types, esoterically inlaid or carved, though many spells also use trappings associated with a forge, including sections of a bellows marked with mathematical formula, inscribed chunks of an anvil, or fragments of a furnace.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"name": "Ingrédient de Chamon",
+			"description": "<p>Ingrédient générique utilisé dans la focalisation de Chamon. Les ingrédients couramment utilisés sont des métaux lourds de tous types, incrustés ou sculptés ésotériquement, bien que de nombreux sorts utilisent également des objets associés à une forge, notamment des sections de soufflet marquées d'une formule mathématique, des morceaux d'enclume inscrits ou des fragments de fourneau.</p>\n<p><em>Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X PA, où X est égal au NI du Sort.&nbsp;</em></p>"
 		},
 		{
 			"id": "Club",
 			"name": "Matraque",
-			"description": "<p>Back-Alley Weapon</p>",
+			"description": "<p>Arme de ruelle</p>",
 			"qualities": "Pummel",
 			"flaws": "",
 			"special": ""
@@ -120,7 +120,7 @@
 		{
 			"id": "Cracker Bullet",
 			"name": "Balles à fragmentation",
-			"description": "<p>Bullet for use with sling, that upon impact cracks with tiny explosion sending fragments in every direction.&nbsp;</p>",
+			"description": "<p>Balle à utiliser avec une fronde, qui lors de l'impact se fend en une minuscule explosion envoyant des fragments dans toutes les directions.&nbsp;</p>",
 			"qualities": "Blast 2, Damaging",
 			"flaws": "Dangerous, Imprecise, Unrecoverable",
 			"special": ""
@@ -128,15 +128,15 @@
 		{
 			"id": "Crowbar",
 			"name": "Pied-de-biche",
-			"description": "<p>Back-Alley Weapon</p>",
+			"description": "<p>Arme de ruelle</p>",
 			"qualities": "Pummel,Slow",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Cuirass",
-			"name": "Cuirass",
-			"description": "<p>Cuirass covers both front and back of torso and thus provides a better protection.</p>",
+			"name": "Cuirasse",
+			"description": "<p>La cuirasse couvre à la fois l'avant et l'arrière du torse et offre ainsi une meilleure protection.</p>",
 			"qualities": "Impenetrable",
 			"flaws": "Weakpoints",
 			"special": ""
@@ -144,7 +144,7 @@
 		{
 			"id": "Cutlass",
 			"name": "Coutelas",
-			"description": "<p>Commoner's Weapon</p>",
+			"description": "<p>Arme du roturier</p>",
 			"qualities": "Slashing",
 			"flaws": "",
 			"special": ""
@@ -152,7 +152,7 @@
 		{
 			"id": "Dirk",
 			"name": "Poignard",
-			"description": "<p>Commoner's Weapon</p>",
+			"description": "<p>Arme du roturier</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
@@ -168,7 +168,7 @@
 		{
 			"id": "Falchion",
 			"name": "Fauchon",
-			"description": "<p>Commoner's Weapon</p>",
+			"description": "<p>Arme du roturier</p>",
 			"qualities": "Slashing",
 			"flaws": "",
 			"special": ""
@@ -176,15 +176,15 @@
 		{
 			"id": "Gambeson",
 			"name": "Gambison",
-			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
+			"description": "<p>Un gambeson est une veste défensive rembourrée, portée séparément comme armure, ou combinée avec une armure de poste ou de plaque. Les gambesons sont produits à l'aide d'une technique de couture appelée matelassage. Ils sont généralement fabriqués en lin ou en laine ; le rembourrage est varié et peut être par exemple constitué de chutes de tissu ou de crins de cheval.</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Gambeson Coat",
-			"name": "Manton de gambison",
-			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
+			"name": "Manteau de gambison",
+			"description": "<p>Un gambeson est une veste défensive rembourrée, portée séparément comme armure, ou combinée avec une armure de poste ou de plaque. Les gambesons sont produits à l'aide d'une technique de couture appelée matelassage. Ils sont généralement fabriqués en lin ou en laine ; le rembourrage est varié et peut être par exemple constitué de chutes de tissu ou de crins de cheval.</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
@@ -200,25 +200,25 @@
 		{
 			"id": "Gambeson Shirt",
 			"name": "Chemise de gambison",
-			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
+			"description": "<p>Un gambeson est une veste défensive rembourrée, portée séparément comme armure, ou combinée avec une armure de poste ou de plaque. Les gambesons sont produits à l'aide d'une technique de couture appelée matelassage. Ils sont généralement fabriqués en lin ou en laine ; le rembourrage est varié et peut être par exemple constitué de chutes de tissu ou de crins de cheval.</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Ghur Ingredient",
-			"name": "Ghur Ingredient",
-			"description": "<p>Generic ingredient used in channeling Ghur. Commonly used ingredients are animal fur, skin, bone, and pelt, wrapped in sinews and daubed with blood runes. Often claws are scrimshawed, organs dried, and feathers dipped in rare humours, and it’s not uncommon to find excrement, urine, and other excretions also used.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"name": "Ingrédient de Ghur",
+			"description": "<p>Ingrédient générique utilisé dans la focalisation du Ghur. Les ingrédients couramment utilisés sont la fourrure, la peau, les os et le pelage des animaux, enveloppés dans des tendons et barbouillés de runes de sang. Souvent, les serres sont griffées, les organes séchés et les plumes trempées dans des humeurs rares, et il n'est pas rare de trouver des excréments, de l'urine et d'autres sécrétions également utilisées.</p>\n<p><em>Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X ss, où X est égal à NI.&nbsp;</em></p>"
 		},
 		{
 			"id": "Ghyran Ingredient",
-			"name": "Ghyran Ingredient",
-			"description": "<p>Generic ingredient used in channeling Ghyran. Commonly used ingredients are rare seeds and nuts, humours gathered from sentient creatures in the flush of life, uncommon tree saps, fertile loam, spring waters, and a variety of living ingredients, including plants and smaller animals.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"name": "Ingrédient de Ghyran",
+			"description": "<p>Ingrédient générique utilisé dans la focalisation du Ghyran. Les ingrédients couramment utilisés sont des graines et des noix rares, des humeurs recueillies auprès de créatures sensibles dans les bouffées de vie, des sèves d'arbres peu communes, du limon fertile, des eaux de source, et une variété d'ingrédients vivants, y compris des plantes et des animaux plus petits.</p>\n<p><em>Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X ss, où X est égal à CN.&nbsp;</em></p>"
 		},
 		{
 			"id": "Hatchet",
 			"name": "Hachette",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Undamaging",
 			"flaws": "",
 			"special": ""
@@ -226,7 +226,7 @@
 		{
 			"id": "Heater Shield",
 			"name": "Ecu",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Shield 2,Defensive",
 			"flaws": "",
 			"special": ""
@@ -234,20 +234,20 @@
 		{
 			"id": "Heavy Lance",
 			"name": "Lance lourde",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Impact,Impale",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Hedgecraft Ingredient",
-			"name": "Hedgecraft Ingredient",
-			"description": "<p>Hedgefolk use easily sourced local materials prepared to exacting standards using special tools. So, ingredients may include things such as the wings of a dragonfly killed with a silver pin, rods of poplar polished with beeswax on Sonnstill, or bones buried beneath a hedgerow for a winter’s month.</p>\n<p><em>Hedgecraft ingredients can be foraged using Lore (Herbalism). Upon successful foraging roll, you receive 1 + SL ingredients.</em></p>\n<p><strong><em>You cannot cast any Hedgecraft spell without an ingredient.</em></strong></p>"
+			"name": "Ingrédient de Magie Sauvage",
+			"description": "<p>Les sorciers de village utilisent des ingrédients préparés avec des matériaux locaux en suivant des standards exigeants et des outils bien spécifiques. Ainsi, les ingrédients peuvent inclure des choses aussi précises que les ailes d'une libellule tuée avec une pointe en argent, des baguettes de bouleaux polies avec du miel d'abeille lors du Sonnstill, ou des os enterrés sous une haie pendant un mois d'hiver complet.</p>\n<p><em>Les ingrédients de Magie Sauvage peuvent être cultivés en utilisant Savoir (Herboristerie). En cas de succès de la récolte, vous recevez +1 DR ingrédients.</em></p>\n<p><strong><em>Vous ne pouvez pas lancer un sort de Magie Sauvage sans ingrédients</em></strong></p>"
 		},
 		{
 			"id": "Horseman's Pick",
 			"name": "Nadziak",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Slashing",
 			"flaws": "",
 			"special": ""
@@ -255,7 +255,7 @@
 		{
 			"id": "Hunting Arrow",
 			"name": "Flèche de chasse",
-			"description": "<p>Specially designed arrows for hunting game and other big prey. It's wide and heavy arrowhead cuts deep into the flesh and can be very lethal, but range is heavily reduced.&nbsp;</p>",
+			"description": "<p>Flèche spécialement conçue pour la chasse au gibier et autres grandes proies. La pointe de flèche est large et lourde, elle coupe profondément dans la chair et peut être très mortelle, mais sa portée est fortement réduite.&nbsp;</p>",
 			"qualities": "Impale, Sturdy",
 			"flaws": "Unreliable",
 			"special": ""
@@ -263,7 +263,7 @@
 		{
 			"id": "Hunting Bolt",
 			"name": "Carreau de chasse",
-			"description": "<p>Specially designed bolts for hunting game and other big prey. It's wide and heavy arrowhead cuts deep into the flesh and can be very lethal, but range is heavily reduced.&nbsp;</p>",
+			"description": "<p>Carreau spécialement conçu pour la chasse au gibier et autres grandes proies. La pointe du carreau est large et lourde, elle coupe profondément dans la chair et peut être très mortelle, mais sa portée est fortement réduite.&nbsp;</p>",
 			"qualities": "Impale, Sturdy",
 			"flaws": "Unreliable",
 			"special": ""
@@ -271,12 +271,12 @@
 		{
 			"id": "Hysh Ingredient",
 			"name": "Hysh Ingredient",
-			"description": "<p>Generic ingredient used in channeling Hysh. Commonly used ingredients are artefacts associated with holiness and holy places, supplemented by crystals, glass, pyramidions, and small statues, all carved with sacred symbols, twisting snakes, and moral tales. White candles, silver carvings, and bleached paper are also common.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"description": "<p>Ingrédient générique utilisé dans la focalisation du Hysh. Les ingrédients couramment utilisés sont des artefacts associés à la sainteté et aux lieux sacrés, complétés par des cristaux, du verre, des pyramidions et de petites statues, tous sculptés de symboles sacrés, de serpents se contorsionnant et de contes moraux. Les bougies blanches, l'argent ouvragé et le papier blanchi sont également courants. Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X PA, où X est égal au NI du Sort.&nbsp;</em><</p>"
 		},
 		{
 			"id": "Katzbalger",
 			"name": "Katzbalger",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
@@ -292,22 +292,22 @@
 		{
 			"id": "Leaf Arrow",
 			"name": "Leaf Arrow",
-			"description": "<p>Standard arrow of decent quality. Doesn't have the armour piercing capabilities of military variant, but is very close to it.&nbsp;</p>",
+			"description": "<p>Flèche standard de bonne qualité. N'a pas les capacités de perçage de l'armure de la variante militaire, mais en est très proche.&nbsp;</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Leather Bracers",
-			"name": "Leather Bracers",
-			"description": "<p>Bracers of boiled and hardened leather</p>",
+			"name": "Brassards en cuir",
+			"description": "<p>Brassards en cuir bouilli et durci</p>",
 			"qualities": "",
 			"flaws": "Weakpoints",
 			"special": ""
 		},
 		{
 			"id": "Leather Jack",
-			"name": "Leather Jack",
+			"name": "Veste de cuir",
 			"description": "",
 			"qualities": "Durable",
 			"flaws": "",
@@ -315,7 +315,7 @@
 		},
 		{
 			"id": "Leather Jerkin",
-			"name": "Leather Jerkin",
+			"name": "Justaucorps de cuir",
 			"description": "",
 			"qualities": "Durable",
 			"flaws": "",
@@ -323,7 +323,7 @@
 		},
 		{
 			"id": "Leather Leggings",
-			"name": "Leather Leggings",
+			"name": "Jambières de cuir",
 			"description": "",
 			"qualities": "Durable",
 			"flaws": "",
@@ -331,7 +331,7 @@
 		},
 		{
 			"id": "Leather Skullcap",
-			"name": "Leather Skullcap",
+			"name": "Calotte de cuir",
 			"description": "",
 			"qualities": "Durable",
 			"flaws": "Ugly",
@@ -340,15 +340,15 @@
 		{
 			"id": "Light Lance",
 			"name": "Lance légère",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Impact,Impale",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Long Gambeson",
-			"name": "Long Gambeson",
-			"description": "<p>A gambeson is a padded defensive jacket, worn as armor separately, or combined with mail or plate armor. Gambesons are produced with a sewing technique called quilting. They are usually constructed of linen or wool; the stuffing varied, and could be for example scrap cloth or horse hair.</p>",
+			"name": "Long Gambison",
+			"description": "<p>Un gambeson est une veste défensive rembourrée, portée séparément comme armure, ou combinée avec une armure de poste ou de plaque. Les gambesons sont produits à l'aide d'une technique de couture appelée matelassage. Ils sont généralement fabriqués en lin ou en laine ; le rembourrage est varié et peut être par exemple constitué de chutes de tissu ou de crins de cheval.</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
@@ -356,7 +356,7 @@
 		{
 			"id": "Longsword",
 			"name": "Longsword",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Damaging,Defensive",
 			"flaws": "",
 			"special": ""
@@ -364,7 +364,7 @@
 		{
 			"id": "Lucerne",
 			"name": "Lucerne",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Damaging,Defensive,Impale,Pummel",
 			"flaws": "",
 			"special": ""
@@ -372,7 +372,7 @@
 		{
 			"id": "Mace",
 			"name": "Masse d'armes",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Pummel",
 			"flaws": "",
 			"special": ""
@@ -388,7 +388,7 @@
 		{
 			"id": "Mallet",
 			"name": "Maillet",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Pummel,Undamaging",
 			"flaws": "",
 			"special": ""
@@ -404,7 +404,7 @@
 		{
 			"id": "Maul",
 			"name": "Marteau d'armes",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Impact,Slow",
 			"flaws": "",
 			"special": ""
@@ -412,7 +412,7 @@
 		{
 			"id": "Military Arrow",
 			"name": "Flèche militaire",
-			"description": "<p>Standard arrow used by military in battles, designed to deeply pierce skin.</p>",
+			"description": "<p>Flèche standard utilisée par les militaires dans les batailles, conçue pour percer la peau en profondeur.</p>",
 			"qualities": "Impale",
 			"flaws": "",
 			"special": ""
@@ -420,7 +420,7 @@
 		{
 			"id": "Misericorde",
 			"name": "Misericorde",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Penetrating",
 			"flaws": "",
 			"special": ""
@@ -428,7 +428,7 @@
 		{
 			"id": "Morgenstern",
 			"name": "Morgenstern",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Penetrating, Pummel",
 			"flaws": "",
 			"special": ""
@@ -436,7 +436,7 @@
 		{
 			"id": "Needle Bolt",
 			"name": "Carreau à aiguille",
-			"description": "<p>Wooden bolt, designed to deeply pierce skin and preferably break upon impact.</p>",
+			"description": "<p>Carreau en bois, conçu pour percer la peau en profondeur et se briser de préférence au moment de l'impact.</p>",
 			"qualities": "Impale, Slashing",
 			"flaws": "Frail",
 			"special": ""
@@ -444,7 +444,7 @@
 		{
 			"id": "Pickaxe",
 			"name": "Pioche",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Impale, Slow",
 			"flaws": "",
 			"special": ""
@@ -452,7 +452,7 @@
 		{
 			"id": "Pitch Fork",
 			"name": "Fourche",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Impale, Undamaging",
 			"flaws": "",
 			"special": ""
@@ -460,7 +460,7 @@
 		{
 			"id": "Pollaxe",
 			"name": "Hache d'armes",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Defensive,Hack,Impale",
 			"flaws": "",
 			"special": ""
@@ -468,7 +468,7 @@
 		{
 			"id": "Rondel Dagger",
 			"name": "Dague à rouelles",
-			"description": "<p>Commoner's Weapon</p>",
+			"description": "<p>Arme du roturier</p>",
 			"qualities": "Undamaging",
 			"flaws": "",
 			"special": ""
@@ -476,7 +476,7 @@
 		{
 			"id": "Sabre",
 			"name": "Sabre",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Slashing",
 			"flaws": "",
 			"special": ""
@@ -484,7 +484,7 @@
 		{
 			"id": "Scythe",
 			"name": "Faux",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Damaging,Imprecise",
 			"flaws": "",
 			"special": ""
@@ -492,7 +492,7 @@
 		{
 			"id": "Shield (Kite)",
 			"name": "Bouclier (Ecu allongé)",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Shield 3,Defensive,Undamaging",
 			"flaws": "",
 			"special": ""
@@ -500,7 +500,7 @@
 		{
 			"id": "Shield (Round)",
 			"name": "Bouclier (Rond)",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Shield 2,Defensive,Undamaging",
 			"flaws": "",
 			"special": ""
@@ -508,7 +508,7 @@
 		{
 			"id": "Shoddy Arrow",
 			"name": "Flèche médiocre",
-			"description": "<p>Arrow of bad quality, often crafted without proper equipment. Usually used by the poor, brigands and rustlers.</p>",
+			"description": "<p>Flèche de mauvaise qualité, souvent fabriquée sans équipement adéquat. Habituellement utilisée par les pauvres, les brigands et les voleurs.</p>",
 			"qualities": "",
 			"flaws": "Frail",
 			"special": ""
@@ -516,12 +516,12 @@
 		{
 			"id": "Shyish Ingredient",
 			"name": "Shyish Ingredient",
-			"description": "<p>Generic ingredient used in channeling Shyish. Commonly used ingredients are bones of sentient creatures, trappings of death, including wood or nails from coffins, embalming fluids, hourglasses, silver coins, and grave dirt, all carefully presented or engraved. Purple gemstones, materials, and flowers (particularly roses) are also common.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"description": "<p>Ingrédient générique utilisé dans la canalisation de Shyish. Les ingrédients couramment utilisés sont les os de créatures conscientes, les symboles de mort, y compris le bois ou les clous provenant de cercueils, les fluides d'embaumement, les sabliers, les pièces d'argent et la poussière de cimetière, tous soigneusement présentés ou gravés. Les pierres précieuses, les matériaux et les fleurs de couleur violette (en particulier les roses) sont également fréquents.</p>\n<p><em>Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X PA, où X est égal au NI du Sort.&nbsp;</em></p>"
 		},
 		{
 			"id": "Side-Sword",
 			"name": "Rapière",
-			"description": "<p>Commoner's Weapon</p>",
+			"description": "<p>Arme du roturier</p>",
 			"qualities": "Fast,Precise",
 			"flaws": "",
 			"special": ""
@@ -529,7 +529,7 @@
 		{
 			"id": "Standard Bolt",
 			"name": "Carreau standard",
-			"description": "<p>Most commonly used bolt without metal head or with head of softer iron.</p>",
+			"description": "<p>Carreau le plus couramment utilisé sans tête métallique ou avec tête en fer doux.</p>",
 			"qualities": "",
 			"flaws": "",
 			"special": ""
@@ -537,7 +537,7 @@
 		{
 			"id": "Stiletto",
 			"name": "Stylet",
-			"description": "<p>Nobleman's Weapon</p>",
+			"description": "<p>Arme de noble</p>",
 			"qualities": "Impale",
 			"flaws": "",
 			"special": ""
@@ -553,7 +553,7 @@
 		{
 			"id": "Trident Dagger",
 			"name": "Main-gauche trident",
-			"description": "<p>Nobleman's Weapon</p>",
+			"description": "<p>Arme de noble</p>",
 			"qualities": "Defensive, Trap Blade",
 			"flaws": "",
 			"special": ""
@@ -561,12 +561,12 @@
 		{
 			"id": "Ulgu Ingredient",
 			"name": "Ulgu Ingredient",
-			"description": "<p>Generic ingredient used in channeling Ulgu. Commonly used ingredients include cosmetics, scents, scarfs, spectacles, mirrors, and wigs. Items drawn from professions steeped in intrigue and wisdom are also common, with diplomatic artefacts, symbols of rank, and the ultimate expression of power — a blade — prevalent..</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X ss, where X is equal to spell's CN.&nbsp;</em></p>"
+			"description": "<p>Ingrédient générique utilisé dans la canalisation de l'Ulgu. Les ingrédients couramment utilisés sont le maquillage, les parfums, les foulards, les lunettes, les miroirs et les perruques. Les objets utilisés par des professions versées dans les intrigues, comme les artefacts diplomatiques, les symboles de rang, et l'expression ultime du pouvoir - l'épée - sont utilisés très fréquemment.</p>\n<p><em>Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X PA, où X est égal au NI du Sort.&nbsp;</em></p>"
 		},
 		{
 			"id": "Voulge",
 			"name": "Vouge",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Hack,Impale",
 			"flaws": "",
 			"special": ""
@@ -574,20 +574,20 @@
 		{
 			"id": "War Scythe",
 			"name": "Faux de guerre",
-			"description": "<p>Knightly Weapon</p>",
+			"description": "<p>Arme de chevalier</p>",
 			"qualities": "Hack",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Witchcraft Ingredient",
-			"name": "Witchcraft Ingredient",
-			"description": "<p>Witches use a horrific mixture of animal body parts, often harvested when a creature is still alive. It is not uncommon to find them clutching lizard eyes, dog toes, donkey gizzard, or much, much worse in their bloody hands as they cast their foul magics.</p>\n<p><em>Ingredient's price depends on spell for which it is destined. Set price to X bp, where X is equal to spell's CN. </em></p>\n<p><em>Alternatively, successful foraging roll using Outdoor Survival grants you 1 + SL ingredients.</em></p>\n<p><strong>Channelling </strong><strong>or casting spells from this Lore automatically require a roll on </strong><strong>the Minor Miscast table unless cast with an ingredient , where </strong><strong>the ingredient provides no further protection should you roll a </strong><strong>Miscast.</strong></p>"
+			"name": "Ingrédient de Sorcellerie",
+			"description": "<p>Les Sorcières utilisent un horrible mélange de morceaux, qu'elles récupèrent le plus souvent alors que l'animal est encore vivant. Iln 'est pas rare de les apercevoir en train d'écraser des yeux de lézards, ou des pattes de chien, des estomacs de baudet, ou bien pire encore, pendant qu'elles marmonnent leur horribles Sorts.</p>\n<p><em>Le prix de l'ingrédient dépend du sort auquel il est destiné. Fixez le prix à X PA, où X est égal au NI du Sort. </em></p>\n<p><em>Sinon, un test de récolte réussi en utilisant la Compétence Survie Extérieur permet de recevoir +1 DR ingrédient.</em></p>\n<p><strong>Focaliser </strong><strong>ou lancer des sorts de ce domaine nécessite systématiquement un lancer sur le </strong><strong>Tableau des Incantations Imparfaites Mineures à moins d'être lancé avec un ingrédient, où </strong><strong> bien cet ingrédient ne servira à rien si un jet sur le </strong><strong>Tableau des Incantation Imparfaites Mineures doit être effectué.</strong></p>"
 		},
 		{
 			"id": "Woodcutter's Axe",
 			"name": "Hache de bûcheron",
-			"description": "<p>Tool Grade Weapon</p>",
+			"description": "<p>Arme de qualité d'outil</p>",
 			"qualities": "Hack, Slow",
 			"flaws": "",
 			"special": ""

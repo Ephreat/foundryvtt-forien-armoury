@@ -28,7 +28,7 @@
 			"id": "Backsword",
 			"name": "Backsword",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Slashing",
+			"qualities": "Coupante",
 			"flaws": "",
 			"special": ""
 		},
@@ -36,7 +36,7 @@
 			"id": "Bardiche",
 			"name": "Bardiche",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Hack",
+			"qualities": "Taille",
 			"flaws": "",
 			"special": ""
 		},
@@ -52,7 +52,7 @@
 			"id": "Battleaxe",
 			"name": "Hache de guerre",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Hack",
+			"qualities": "Taille",
 			"flaws": "",
 			"special": ""
 		},
@@ -60,7 +60,7 @@
 			"id": "Bear Spear",
 			"name": "Lance",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Impale",
+			"qualities": "Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -68,7 +68,7 @@
 			"id": "Bec de Corbin",
 			"name": "Bec de Corbin",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Damaging,Defensive,Impale,Pummel",
+			"qualities": "Dévastatrice,Défensive,Empaleuse,Assomante",
 			"flaws": "",
 			"special": ""
 		},
@@ -76,7 +76,7 @@
 			"id": "Bodkin Arrow",
 			"name": "Flèche Bodkin",
 			"description": "<p>Flèche perforante utilisée par les militaires dans les batailles, conçue pour contrer certaines armures portées par les combattants ennemis.</p>",
-			"qualities": "Penetrating",
+			"qualities": "Perforante",
 			"flaws": "",
 			"special": ""
 		},
@@ -84,7 +84,7 @@
 			"id": "Bodkin Bolt",
 			"name": "Carreau Bodkin",
 			"description": "<p>Carreau perforant utilisée par les militaires dans les batailles, conçue pour contrer certaines armures portées par les combattants ennemis.</p>",
-			"qualities": "Impale, Penetrating, Recoverable",
+			"qualities": "Empaleuse, Perforante, Récupérable",
 			"flaws": "",
 			"special": ""
 		},
@@ -92,15 +92,15 @@
 			"id": "Breastplate",
 			"name": "Plastron",
 			"description": "<p>Le plastron est un type d'armure de plaque qui ne couvre que la partie avant du torse.</p>",
-			"qualities": "Impenetrable",
-			"flaws": "Partial",
+			"qualities": "Impénétrable",
+			"flaws": "Partielle",
 			"special": ""
 		},
 		{
 			"id": "Broad Bolt",
 			"name": "Carreau large",
 			"description": "<p>Carreau à tête lourde et large qui peut causer un traumatisme contondant important à la cible.</p>",
-			"qualities": "Pummel, Sturdy",
+			"qualities": "Assomante, Robuste",
 			"flaws": "",
 			"special": ""
 		},
@@ -113,23 +113,23 @@
 			"id": "Club",
 			"name": "Matraque",
 			"description": "<p>Arme de ruelle</p>",
-			"qualities": "Pummel",
+			"qualities": "Assomante",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Cracker Bullet",
 			"name": "Balles à fragmentation",
-			"description": "<p>Balle à utiliser avec une fronde, qui lors de l'impact se fend en une minuscule explosion envoyant des fragments dans toutes les directions.&nbsp;</p>",
-			"qualities": "Blast 2, Damaging",
-			"flaws": "Dangerous, Imprecise, Unrecoverable",
+			"description": "<p>Balle à utiliser avec une fronde, qui lors de l'Percutante se fend en une minuscule explosion envoyant des fragments dans toutes les directions.&nbsp;</p>",
+			"qualities": "Explosive 2, Dévastatrice",
+			"flaws": "Dangereuse, Imprécise, Non Récupérable",
 			"special": ""
 		},
 		{
 			"id": "Crowbar",
 			"name": "Pied-de-biche",
 			"description": "<p>Arme de ruelle</p>",
-			"qualities": "Pummel,Slow",
+			"qualities": "Assomante,Lente",
 			"flaws": "",
 			"special": ""
 		},
@@ -137,15 +137,15 @@
 			"id": "Cuirass",
 			"name": "Cuirasse",
 			"description": "<p>La cuirasse couvre à la fois l'avant et l'arrière du torse et offre ainsi une meilleure protection.</p>",
-			"qualities": "Impenetrable",
-			"flaws": "Weakpoints",
+			"qualities": "Impénétrable",
+			"flaws": "Points faibles",
 			"special": ""
 		},
 		{
 			"id": "Cutlass",
 			"name": "Coutelas",
 			"description": "<p>Arme du roturier</p>",
-			"qualities": "Slashing",
+			"qualities": "Coupante",
 			"flaws": "",
 			"special": ""
 		},
@@ -161,7 +161,7 @@
 			"id": "Estoc",
 			"name": "Estoc",
 			"description": "",
-			"qualities": "Damaging, Impale",
+			"qualities": "Dévastatrice, Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -169,7 +169,7 @@
 			"id": "Falchion",
 			"name": "Fauchon",
 			"description": "<p>Arme du roturier</p>",
-			"qualities": "Slashing",
+			"qualities": "Coupante",
 			"flaws": "",
 			"special": ""
 		},
@@ -219,15 +219,15 @@
 			"id": "Hatchet",
 			"name": "Hachette",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Undamaging",
+			"qualities": "Inoffensive",
 			"flaws": "",
 			"special": ""
 		},
 		{
-			"id": "Heater Shield",
+			"id": "Heater Protectrice",
 			"name": "Ecu",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Shield 2,Defensive",
+			"qualities": "Protectrice 2,Défensive",
 			"flaws": "",
 			"special": ""
 		},
@@ -235,7 +235,7 @@
 			"id": "Heavy Lance",
 			"name": "Lance lourde",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Impact,Impale",
+			"qualities": "Percutante,Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -248,7 +248,7 @@
 			"id": "Horseman's Pick",
 			"name": "Nadziak",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Slashing",
+			"qualities": "Coupante",
 			"flaws": "",
 			"special": ""
 		},
@@ -256,16 +256,16 @@
 			"id": "Hunting Arrow",
 			"name": "Flèche de chasse",
 			"description": "<p>Flèche spécialement conçue pour la chasse au gibier et autres grandes proies. La pointe de flèche est large et lourde, elle coupe profondément dans la chair et peut être très mortelle, mais sa portée est fortement réduite.&nbsp;</p>",
-			"qualities": "Impale, Sturdy",
-			"flaws": "Unreliable",
+			"qualities": "Empaleuse, Robuste",
+			"flaws": "Peu fiable",
 			"special": ""
 		},
 		{
 			"id": "Hunting Bolt",
 			"name": "Carreau de chasse",
 			"description": "<p>Carreau spécialement conçu pour la chasse au gibier et autres grandes proies. La pointe du carreau est large et lourde, elle coupe profondément dans la chair et peut être très mortelle, mais sa portée est fortement réduite.&nbsp;</p>",
-			"qualities": "Impale, Sturdy",
-			"flaws": "Unreliable",
+			"qualities": "Empaleuse, Robuste",
+			"flaws": "Peu fiable",
 			"special": ""
 		},
 		{
@@ -285,7 +285,7 @@
 			"id": "Lead Bullet",
 			"name": "Balle de plomb",
 			"description": "",
-			"qualities": "Pummel, Unbreakable",
+			"qualities": "Assomante, Incassable",
 			"flaws": "",
 			"special": ""
 		},
@@ -302,14 +302,14 @@
 			"name": "Brassards en cuir",
 			"description": "<p>Brassards en cuir bouilli et durci</p>",
 			"qualities": "",
-			"flaws": "Weakpoints",
+			"flaws": "Points faibles",
 			"special": ""
 		},
 		{
 			"id": "Leather Jack",
 			"name": "Veste de cuir",
 			"description": "",
-			"qualities": "Durable",
+			"qualities": "Solide",
 			"flaws": "",
 			"special": ""
 		},
@@ -317,7 +317,7 @@
 			"id": "Leather Jerkin",
 			"name": "Justaucorps de cuir",
 			"description": "",
-			"qualities": "Durable",
+			"qualities": "Solide",
 			"flaws": "",
 			"special": ""
 		},
@@ -325,7 +325,7 @@
 			"id": "Leather Leggings",
 			"name": "Jambières de cuir",
 			"description": "",
-			"qualities": "Durable",
+			"qualities": "Solide",
 			"flaws": "",
 			"special": ""
 		},
@@ -333,15 +333,15 @@
 			"id": "Leather Skullcap",
 			"name": "Calotte de cuir",
 			"description": "",
-			"qualities": "Durable",
-			"flaws": "Ugly",
+			"qualities": "Solide",
+			"flaws": "Laid",
 			"special": ""
 		},
 		{
 			"id": "Light Lance",
 			"name": "Lance légère",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Impact,Impale",
+			"qualities": "Percutante,Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -357,7 +357,7 @@
 			"id": "Longsword",
 			"name": "Longsword",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Damaging,Defensive",
+			"qualities": "Dévastatrice,Défensive",
 			"flaws": "",
 			"special": ""
 		},
@@ -365,7 +365,7 @@
 			"id": "Lucerne",
 			"name": "Lucerne",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Damaging,Defensive,Impale,Pummel",
+			"qualities": "Dévastatrice,Défensive,Empaleuse,Assomante",
 			"flaws": "",
 			"special": ""
 		},
@@ -373,7 +373,7 @@
 			"id": "Mace",
 			"name": "Masse d'armes",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Pummel",
+			"qualities": "Assomante",
 			"flaws": "",
 			"special": ""
 		},
@@ -389,7 +389,7 @@
 			"id": "Mallet",
 			"name": "Maillet",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Pummel,Undamaging",
+			"qualities": "Assomante,Inoffensive",
 			"flaws": "",
 			"special": ""
 		},
@@ -397,7 +397,7 @@
 			"id": "Marienburg Hammer",
 			"name": "Marteau de Marienburg",
 			"description": "",
-			"qualities": "Pummel, Impale",
+			"qualities": "Assomante, Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -405,7 +405,7 @@
 			"id": "Maul",
 			"name": "Marteau d'armes",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Impact,Slow",
+			"qualities": "Percutante,Lente",
 			"flaws": "",
 			"special": ""
 		},
@@ -413,15 +413,15 @@
 			"id": "Military Arrow",
 			"name": "Flèche militaire",
 			"description": "<p>Flèche standard utilisée par les militaires dans les batailles, conçue pour percer la peau en profondeur.</p>",
-			"qualities": "Impale",
+			"qualities": "Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Misericorde",
-			"name": "Misericorde",
+			"name": "Miséricorde",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Penetrating",
+			"qualities": "Perforante",
 			"flaws": "",
 			"special": ""
 		},
@@ -429,23 +429,23 @@
 			"id": "Morgenstern",
 			"name": "Morgenstern",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Penetrating, Pummel",
+			"qualities": "Perforante, Assomante",
 			"flaws": "",
 			"special": ""
 		},
 		{
 			"id": "Needle Bolt",
 			"name": "Carreau à aiguille",
-			"description": "<p>Carreau en bois, conçu pour percer la peau en profondeur et se briser de préférence au moment de l'impact.</p>",
-			"qualities": "Impale, Slashing",
-			"flaws": "Frail",
+			"description": "<p>Carreau en bois, conçu pour percer la peau en profondeur et se briser de préférence au moment de l'Percutante.</p>",
+			"qualities": "Empaleuse, Coupante",
+			"flaws": "Fragile",
 			"special": ""
 		},
 		{
 			"id": "Pickaxe",
 			"name": "Pioche",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Impale, Slow",
+			"qualities": "Empaleuse, Lente",
 			"flaws": "",
 			"special": ""
 		},
@@ -453,7 +453,7 @@
 			"id": "Pitch Fork",
 			"name": "Fourche",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Impale, Undamaging",
+			"qualities": "Empaleuse, Inoffensive",
 			"flaws": "",
 			"special": ""
 		},
@@ -461,7 +461,7 @@
 			"id": "Pollaxe",
 			"name": "Hache d'armes",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Defensive,Hack,Impale",
+			"qualities": "Défensive,Taille,Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -469,7 +469,7 @@
 			"id": "Rondel Dagger",
 			"name": "Dague à rouelles",
 			"description": "<p>Arme du roturier</p>",
-			"qualities": "Undamaging",
+			"qualities": "Inoffensive",
 			"flaws": "",
 			"special": ""
 		},
@@ -477,7 +477,7 @@
 			"id": "Sabre",
 			"name": "Sabre",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Slashing",
+			"qualities": "Coupante",
 			"flaws": "",
 			"special": ""
 		},
@@ -485,23 +485,23 @@
 			"id": "Scythe",
 			"name": "Faux",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Damaging,Imprecise",
+			"qualities": "Dévastatrice,Imprécise",
 			"flaws": "",
 			"special": ""
 		},
 		{
-			"id": "Shield (Kite)",
+			"id": "Protectrice (Kite)",
 			"name": "Bouclier (Ecu allongé)",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Shield 3,Defensive,Undamaging",
+			"qualities": "Protectrice 3,Défensive,Inoffensive",
 			"flaws": "",
 			"special": ""
 		},
 		{
-			"id": "Shield (Round)",
+			"id": "Protectrice (Round)",
 			"name": "Bouclier (Rond)",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Shield 2,Defensive,Undamaging",
+			"qualities": "Protectrice 2,Défensive,Inoffensive",
 			"flaws": "",
 			"special": ""
 		},
@@ -510,7 +510,7 @@
 			"name": "Flèche médiocre",
 			"description": "<p>Flèche de mauvaise qualité, souvent fabriquée sans équipement adéquat. Habituellement utilisée par les pauvres, les brigands et les voleurs.</p>",
 			"qualities": "",
-			"flaws": "Frail",
+			"flaws": "Fragile",
 			"special": ""
 		},
 		{
@@ -522,7 +522,7 @@
 			"id": "Side-Sword",
 			"name": "Rapière",
 			"description": "<p>Arme du roturier</p>",
-			"qualities": "Fast,Precise",
+			"qualities": "Rapide,Précise",
 			"flaws": "",
 			"special": ""
 		},
@@ -538,7 +538,7 @@
 			"id": "Stiletto",
 			"name": "Stylet",
 			"description": "<p>Arme de noble</p>",
-			"qualities": "Impale",
+			"qualities": "Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -546,7 +546,7 @@
 			"id": "Stone Bullet",
 			"name": "Balle en pierre",
 			"description": "",
-			"qualities": "Pummel, Sturdy, Recoverable",
+			"qualities": "Assomante, Robuste, Récupérable",
 			"flaws": "",
 			"special": ""
 		},
@@ -554,7 +554,7 @@
 			"id": "Trident Dagger",
 			"name": "Main-gauche trident",
 			"description": "<p>Arme de noble</p>",
-			"qualities": "Defensive, Trap Blade",
+			"qualities": "Défensive, Piège-lame",
 			"flaws": "",
 			"special": ""
 		},
@@ -567,7 +567,7 @@
 			"id": "Voulge",
 			"name": "Vouge",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Hack,Impale",
+			"qualities": "Taille,Empaleuse",
 			"flaws": "",
 			"special": ""
 		},
@@ -575,7 +575,7 @@
 			"id": "War Scythe",
 			"name": "Faux de guerre",
 			"description": "<p>Arme de chevalier</p>",
-			"qualities": "Hack",
+			"qualities": "Taille",
 			"flaws": "",
 			"special": ""
 		},
@@ -588,7 +588,7 @@
 			"id": "Woodcutter's Axe",
 			"name": "Hache de bûcheron",
 			"description": "<p>Arme de qualité d'outil</p>",
-			"qualities": "Hack, Slow",
+			"qualities": "Taille, Lente",
 			"flaws": "",
 			"special": ""
 		}

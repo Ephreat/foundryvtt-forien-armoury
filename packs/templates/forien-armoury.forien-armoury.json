@@ -371,7 +371,7 @@
 		},
 		{
 			"id": "Mace",
-			"name": "Mace",
+			"name": "Masse d'armes",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Pummel",
 			"flaws": "",
@@ -379,7 +379,7 @@
 		},
 		{
 			"id": "Mail Longcoat",
-			"name": "Mail Longcoat",
+			"name": "Manteau long de mailles",
 			"description": "",
 			"qualities": "Flexible",
 			"flaws": "",
@@ -387,7 +387,7 @@
 		},
 		{
 			"id": "Mallet",
-			"name": "Mallet",
+			"name": "Maillet",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Pummel,Undamaging",
 			"flaws": "",
@@ -395,7 +395,7 @@
 		},
 		{
 			"id": "Marienburg Hammer",
-			"name": "Marienburg Hammer",
+			"name": "Marteau de Marienburg",
 			"description": "",
 			"qualities": "Pummel, Impale",
 			"flaws": "",
@@ -403,7 +403,7 @@
 		},
 		{
 			"id": "Maul",
-			"name": "Maul",
+			"name": "Marteau d'armes",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Impact,Slow",
 			"flaws": "",
@@ -411,7 +411,7 @@
 		},
 		{
 			"id": "Military Arrow",
-			"name": "Military Arrow",
+			"name": "Flèche militaire",
 			"description": "<p>Standard arrow used by military in battles, designed to deeply pierce skin.</p>",
 			"qualities": "Impale",
 			"flaws": "",
@@ -435,7 +435,7 @@
 		},
 		{
 			"id": "Needle Bolt",
-			"name": "Needle Bolt",
+			"name": "Carreau à aiguille",
 			"description": "<p>Wooden bolt, designed to deeply pierce skin and preferably break upon impact.</p>",
 			"qualities": "Impale, Slashing",
 			"flaws": "Frail",
@@ -443,7 +443,7 @@
 		},
 		{
 			"id": "Pickaxe",
-			"name": "Pickaxe",
+			"name": "Pioche",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Impale, Slow",
 			"flaws": "",
@@ -451,7 +451,7 @@
 		},
 		{
 			"id": "Pitch Fork",
-			"name": "Pitch Fork",
+			"name": "Fourche",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Impale, Undamaging",
 			"flaws": "",
@@ -459,7 +459,7 @@
 		},
 		{
 			"id": "Pollaxe",
-			"name": "Pollaxe",
+			"name": "Hache d'armes",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Defensive,Hack,Impale",
 			"flaws": "",
@@ -467,7 +467,7 @@
 		},
 		{
 			"id": "Rondel Dagger",
-			"name": "Rondel Dagger",
+			"name": "Dague à rouelles",
 			"description": "<p>Commoner's Weapon</p>",
 			"qualities": "Undamaging",
 			"flaws": "",
@@ -483,7 +483,7 @@
 		},
 		{
 			"id": "Scythe",
-			"name": "Scythe",
+			"name": "Faux",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Damaging,Imprecise",
 			"flaws": "",
@@ -491,7 +491,7 @@
 		},
 		{
 			"id": "Shield (Kite)",
-			"name": "Shield (Kite)",
+			"name": "Bouclier (Ecu allongé)",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Shield 3,Defensive,Undamaging",
 			"flaws": "",
@@ -499,7 +499,7 @@
 		},
 		{
 			"id": "Shield (Round)",
-			"name": "Shield (Round)",
+			"name": "Bouclier (Rond)",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Shield 2,Defensive,Undamaging",
 			"flaws": "",
@@ -507,7 +507,7 @@
 		},
 		{
 			"id": "Shoddy Arrow",
-			"name": "Shoddy Arrow",
+			"name": "Flèche médiocre",
 			"description": "<p>Arrow of bad quality, often crafted without proper equipment. Usually used by the poor, brigands and rustlers.</p>",
 			"qualities": "",
 			"flaws": "Frail",
@@ -520,7 +520,7 @@
 		},
 		{
 			"id": "Side-Sword",
-			"name": "Side-Sword",
+			"name": "Rapière",
 			"description": "<p>Commoner's Weapon</p>",
 			"qualities": "Fast,Precise",
 			"flaws": "",
@@ -528,7 +528,7 @@
 		},
 		{
 			"id": "Standard Bolt",
-			"name": "Standard Bolt",
+			"name": "Carreau standard",
 			"description": "<p>Most commonly used bolt without metal head or with head of softer iron.</p>",
 			"qualities": "",
 			"flaws": "",
@@ -536,7 +536,7 @@
 		},
 		{
 			"id": "Stiletto",
-			"name": "Stiletto",
+			"name": "Stylet",
 			"description": "<p>Nobleman's Weapon</p>",
 			"qualities": "Impale",
 			"flaws": "",
@@ -544,7 +544,7 @@
 		},
 		{
 			"id": "Stone Bullet",
-			"name": "Stone Bullet",
+			"name": "Balle en pierre",
 			"description": "",
 			"qualities": "Pummel, Sturdy, Recoverable",
 			"flaws": "",
@@ -552,7 +552,7 @@
 		},
 		{
 			"id": "Trident Dagger",
-			"name": "Trident Dagger",
+			"name": "Main-gauche trident",
 			"description": "<p>Nobleman's Weapon</p>",
 			"qualities": "Defensive, Trap Blade",
 			"flaws": "",
@@ -565,7 +565,7 @@
 		},
 		{
 			"id": "Voulge",
-			"name": "Voulge",
+			"name": "Vouge",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Hack,Impale",
 			"flaws": "",
@@ -573,7 +573,7 @@
 		},
 		{
 			"id": "War Scythe",
-			"name": "War Scythe",
+			"name": "Faux de guerre",
 			"description": "<p>Knightly Weapon</p>",
 			"qualities": "Hack",
 			"flaws": "",
@@ -586,7 +586,7 @@
 		},
 		{
 			"id": "Woodcutter's Axe",
-			"name": "Woodcutter's Axe",
+			"name": "Hache de bûcheron",
 			"description": "<p>Tool Grade Weapon</p>",
 			"qualities": "Hack, Slow",
 			"flaws": "",
